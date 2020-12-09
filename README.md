@@ -19,7 +19,7 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 
 | Imagem      | Nome da página | Descrição     |
 | :---        |    :----:      |          ---: |
-| (será adicionadomais tarde)      | (será adicionadomais tarde)           | (será adicionadomais tarde)    |
+| (será adicionadomais tarde) | (será adicionadomais tarde) | (será adicionadomais tarde) |
 
 
 
