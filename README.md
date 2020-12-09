@@ -34,7 +34,7 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 * JQuery
 * slick.js
 
-## Report
+## Relatório de Capítulos
 
 ### Apresentação do Projeto
 * C1: [Apresentação do Projeto](https://github.com/Joel-Diogo-Marco-TI/Project/blob/master/doc/c1.md)
