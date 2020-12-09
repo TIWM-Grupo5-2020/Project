@@ -11,10 +11,9 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 
 * Os ficheiros de **Documentação** poderão ser encotrados no repositório [doc](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/doc).
 * **O conteúdo todo relacionado com o projeto** pode ser encontrado no [Project](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
-  * Os ficheiros de **JavaScript** poderão ser encotrados no repositório [js](https://github.com/Joel-Diogo-Marco-TI/Project).
-  * Os ficheiros de **HTML** poderão ser encotrados na raiz do projeto [Project](https://github.com/Joel-Diogo-Marco-TI/Project).
-  * Os ficheiros de **CSS** poderão ser encotrados no repositório [css](https://github.com/Joel-Diogo-Marco-TI/Project/css).
-
-  * As **imagens** poderão ser encotradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/doc).
+  * Os ficheiros de **JavaScript** poderão ser encotrados no repositório [js](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/js).
+  * Os ficheiros de **HTML** poderão ser encotrados na raiz do projeto [Project](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
+  * Os ficheiros de **CSS** poderão ser encotrados no repositório [css](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/css).
+  * As **imagens** poderão ser encotradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/css/img).
 
 
