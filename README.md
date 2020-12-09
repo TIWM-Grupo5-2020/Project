@@ -15,5 +15,12 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
   * As **imagens** poderão ser encotradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/img).
 * Os ficheiros de **Documentação** poderão ser encotrados no repositório [doc](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/doc).
 
+## Galeria
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 
 
