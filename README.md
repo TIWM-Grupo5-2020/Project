@@ -46,6 +46,6 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 * C4: [Apresentação](https://github.com/Joel-Diogo-Marco-TI/Project/blob/master/doc/c4.md)
 
 ## Grupo
-* Joel Da Silva Araújo [@JoelAraujoGit](https://github.com/JoelAraujoGit)
-* Marco José Silva Araújo [@MarcoAraujo16](https://github.com/MarcoAraujo16)
-* Diogo Silva Carneiro [@Diogosc27](https://github.com/Diogosc27)
+* Joel Da Silva Araújo a034520 [@JoelAraujoGit](https://github.com/JoelAraujoGit)
+* Marco José Silva Araújo a035188 [@MarcoAraujo16](https://github.com/MarcoAraujo16)
+* Diogo Silva Carneiro a035189 [@Diogosc27](https://github.com/Diogosc27)
