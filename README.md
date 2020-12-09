@@ -22,8 +22,14 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 | (será adicionadomais tarde) | (será adicionadomais tarde) | (será adicionadomais tarde) |
 
 ## Tecnologias
-*XML
-*HTML5 + CSS3
-*Javascript
-*PHP
 
+* XML
+* HTML5 + CSS3
+* Javascript
+* PHP
+
+### Frameworks and Libraries
+
+* Bootsrap
+* JQuery
+* slick.js
