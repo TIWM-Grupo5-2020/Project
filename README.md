@@ -17,10 +17,9 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 
 ## Galeria
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Imagem      | Nome da página | Descrição     |
+| :---        |    :----:      |          ---: |
+| (será adicionadomais tarde)      | (será adicionadomais tarde)           | (será adicionadomais tarde)    |
 
 
 
