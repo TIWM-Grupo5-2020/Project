@@ -9,9 +9,9 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas/d
 
 ## Organização de repositórios
 
-* **Todo o código** pode ser encontrado no [src folder](https://github.com/Joel-Diogo-Marco-TI/Project).
-* Os ficheiros de **JavaScript** poderão ser encotrados no [js](https://github.com/Joel-Diogo-Marco-TI/Project).
-* Os ficheiros de **HTML** poderão ser encotrados na rais do projeto [Project](https://github.com/Joel-Diogo-Marco-TI/Project).
-* Os ficheiros de **CSS** poderão ser encotrados no [css](https://github.com/Joel-Diogo-Marco-TI/Project/css).
+* **Todo o código** pode ser encontrado no [Project](https://github.com/Joel-Diogo-Marco-TI/Project).
+  * Os ficheiros de **JavaScript** poderão ser encotrados no [js](https://github.com/Joel-Diogo-Marco-TI/Project).
+  * Os ficheiros de **HTML** poderão ser encotrados na rais do projeto [Project](https://github.com/Joel-Diogo-Marco-TI/Project).
+  * Os ficheiros de **CSS** poderão ser encotrados no [css](https://github.com/Joel-Diogo-Marco-TI/Project/css).
 
 
