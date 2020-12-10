@@ -9,11 +9,11 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas o
 
 ## Organização de repositórios
 * **O conteúdo todo relacionado com o projeto** pode ser encontrado no [Project](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
-  * Os ficheiros de **JavaScript** poderão ser encotrados no repositório [js](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/js).
-  * Os ficheiros de **HTML** poderão ser encotrados na raiz do projeto [srcproj](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
-  * Os ficheiros de **CSS** poderão ser encotrados no repositório [css](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/css).
-  * As **imagens** poderão ser encotradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/img).
-* Os ficheiros de **Documentação** poderão ser encotrados no repositório [doc](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/doc).
+  * Os ficheiros de **JavaScript** poderão ser encontrados no repositório [js](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/js).
+  * Os ficheiros de **HTML** poderão ser encontrados na raiz do projeto [srcproj](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
+  * Os ficheiros de **CSS** poderão ser encontrados no repositório [css](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/css).
+  * As **imagens** poderão ser encontradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/img).
+* Os ficheiros de **Documentação** poderão ser encontrados no repositório [doc](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/doc).
 
 ## Galeria
 
