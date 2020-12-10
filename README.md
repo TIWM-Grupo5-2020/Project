@@ -19,7 +19,7 @@ Este Projeto tem como objectivo desenvolver um conjunto de páginas estáticas o
 
 | Imagem      | Nome da página | Descrição     |
 | :---        |    :----:      |          ---: |
-| (será adicionadomais tarde) | (será adicionadomais tarde) | (será adicionadomais tarde) |
+| (será adicionado mais tarde) | (será adicionado mais tarde) | (será adicionado mais tarde) |
 
 ## Tecnologias
 
