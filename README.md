@@ -17,9 +17,9 @@ Este Projeto tem como objetivo desenvolver um conjunto de páginas estáticas ou
 
 ## Galeria
 
-| Imagem      | Nome da página | Descrição     |
+| Imagem      | Nome | Descrição     |
 | :---        |    :----:      |          ---: |
-|![Fluxo entre webpages](https://github.com/TIWM-Grupo5-2020/Project/blob/master/srcproj/img/Fluxo%20site%20TI.jpeg)||
+| ![Fluxo entre webpages](https://github.com/TIWM-Grupo5-2020/Project/blob/master/srcproj/img/Fluxo%20site%20TI.jpeg) | [Apresentação do Projeto](https://github.com/TIWM-Grupo5-2020/Project/blob/master/srcproj/img/Fluxo%20site%20TI.jpeg) | Diagrama representativo do fluxo das webpages do website |
 | (será adicionado mais tarde) | (será adicionado mais tarde) | (será adicionado mais tarde) |
 
 ## Tecnologias
