@@ -1,3 +1,93 @@
 body{
-    background-color: red;
+    width: 100%;
+    margin: 0;
 }
+/* Header CSS */
+#header{
+    width: 100%;
+    color: white;
+}
+.upper{
+    background-color: black;
+}
+.right-header,.left-header{
+    display: inline-block;
+}
+.left-header{
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.left-header img{
+    padding-top: 4px;
+}
+.right-header{
+    margin-left: 20px;
+}
+.right-header ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+}
+.right-header ul li{
+    display: inline-block;
+}
+.right-header ul li:not(:last-child){
+    padding-right: 20px;
+}
+.right-header ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.right-header ul li a:hover{
+    text-decoration: underline;
+}
+.filter-g-item.sel .main-h{
+    text-decoration: underline;
+}
+/* submenus */
+.submenus{
+    width: 100%;
+    background-color: black;
+    margin-top: 0.5px;
+    text-align: center;
+}
+.ul-sub{
+    padding: 0;
+    margin: 0;
+}
+.ul-sub li{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+.ul-sub li:hover{
+    background-color: white;
+}
+.ul-sub li:hover .a-col{
+    color: black;
+}
+.ul-sub li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.sub-items.sel{
+    background-color: white;
+}
+.sub-items.sel a{
+    color: black;
+}
+/* ---------- */
+
+/* Container */
+
+/* --------- */
+
+
+/* footer */
+
+/* ------ */
