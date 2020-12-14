@@ -1,0 +1,191 @@
+/* Classes gerais */
+body{
+    width: 100%;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    min-height: 300px;
+    padding-top: 100px;
+}
+/* -------------- */
+/* Header CSS */
+#header{
+    width: 100%;
+    color: white;
+    position: fixed;
+}
+.upper{
+    background-color: black;
+}
+.right-header,.left-header{
+    display: inline-block;
+}
+.left-header{
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.left-header img{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.right-header{
+    margin-left: 20px;
+}
+.right-header ul{
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+}
+.right-header ul li{
+    display: inline-block;
+}
+.right-header ul li:not(:last-child){
+    padding-right: 20px;
+}
+.right-header ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.right-header ul li a:hover{
+    text-decoration: underline;
+}
+.filter-g-item.sel .main-h{
+    text-decoration: underline;
+}
+/* submenus */
+.submenus{
+    width: 100%;
+    background-color: black;
+    margin-top: 0.5px;
+    text-align: center;
+}
+.ul-sub{
+    padding: 0;
+    margin: 0;
+}
+.ul-sub li{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+.ul-sub li:hover{
+    background-color: white;
+}
+.ul-sub li:hover .a-col{
+    color: black;
+}
+.ul-sub li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.sub-items.sel{
+    background-color: white;
+}
+.sub-items.sel a{
+    color: black;
+}
+/* ---------- */
+
+/* footer */
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.ava{
+    text-align: center;
+    background-color: #f2f0e9;
+    width: 100%;
+    position: relative
+}
+.ava-content{
+    width: 100%;
+}
+.ava .ava-content h2{
+    padding-top: 30px;
+    text-transform: none;
+}
+.ava .ava-content .but{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: black;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid transparent;
+}
+.ava .ava-content .but:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.row-footer{
+    padding: 30px 0 34px 0;
+}
+.footer-container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-bottom{
+    background-color: #1c1c1c;
+    padding-top: 4px;
+}
+.left-f img{
+    width: 100%;
+}
+.lista-footer {
+    list-style: none;
+}
+.lista-footer li {
+    margin-bottom: 10px;
+}
+.lista-footer li a{
+    color: white;
+    border-bottom: 1px solid transparent;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.lista-footer li a:hover{
+    border-color: white;
+}
+.list-title{
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+.footer-rights{
+    background-color: #0f0f0f;
+}
+.text-footer p{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 10px 0 10px 30px;
+}
+/* ------ */
+
+/* Container */
+
+/* --------- */
+
+
