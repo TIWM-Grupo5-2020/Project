@@ -9,11 +9,15 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0;
     margin: 0;
 }
+.container{
+    min-height: 300px;
+}
 /* -------------- */
 /* Header CSS */
 #header{
     width: 100%;
     color: white;
+    position: fixed;
 }
 .upper{
     background-color: black;
@@ -27,6 +31,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .left-header img{
     padding-top: 4px;
+    padding-bottom: 4px;
 }
 .right-header{
     margin-left: 20px;
@@ -97,8 +102,6 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /* footer */
-
-/* ava */
 footer{
     bottom: 0;
     left: 0;
@@ -128,6 +131,7 @@ footer{
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 17px;
+    outline: none;
     border: 1px solid transparent;
 }
 .ava .ava-content .but:hover{
@@ -135,31 +139,51 @@ footer{
     background-color: white;
     border: 1px solid black;
 }
-/* --- */
-
-/* footer bottom */
+.row-footer{
+    padding: 30px 0 34px 0;
+}
 .footer-container{
     padding-left: 30px;
     padding-right: 30px;
 }
 .footer-bottom{
-    background-color: black;
+    background-color: #1c1c1c;
     padding-top: 4px;
 }
 .left-f img{
-    margin:20px 0 20px 0; 
+    width: 100%;
 }
-.lista-footer li{
+.lista-footer {
+    list-style: none;
+}
+.lista-footer li {
+    margin-bottom: 10px;
+}
+.lista-footer li a{
     color: white;
     border-bottom: 1px solid transparent;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding: 10px 0 10px 0;
+    font-size: 15px;
+    padding-bottom: 2px;
+    text-decoration: none;
 }
-.lista-footer li:hover{
+.lista-footer li a:hover{
     border-color: white;
 }
-/* ------------- */
-
+.list-title{
+    font-weight: bold;
+    color: white;
+    font-size: 19px;
+}
+.footer-rights{
+    background-color: #0f0f0f;
+}
+.text-footer p{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 10px 0 10px 30px;
+}
 /* ------ */
