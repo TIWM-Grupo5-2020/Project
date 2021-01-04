@@ -6,8 +6,16 @@ form{
     display: inline-block;
     margin:50px 0 50px 0;
 }
+form input{
+    width: 100%;
+}
+.container-inputs{
+    padding: 0 25px 0 25px;
+    text-align: left;
+}
 form h2,form h3,form h4{
     text-transform: none;
+    padding: 0 20px;
 }
 form h3{
     margin-top: 10px;
@@ -15,4 +23,29 @@ form h3{
 .title-area{
     text-align: left;
 }
-
+.opinion-area textarea{
+    width: 100%;
+}
+.container-inputs input, .container-inputs textarea{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-area hr{
+    border-top: 1px solid black;
+}
+.title-box{
+    display: block;
+    padding-bottom: 5px;
+}
+.pad-area{
+    padding-top: 20px;
+}
+.submit-area{
+    text-align: center;
+    padding-top: 30px;
+}
+.submit-area input{
+    max-width: 200px;
+}
+.but-sub{
+    padding:8px 30px ;
+}

@@ -40,15 +40,48 @@
     </header>
 
     <div class="container">
-        <form action="POST">
+        <form method="post">
             <div class="title-area">
                 <h2>Preencha o formulário para dar a sua opinião</h2>
-                <h3>Seja o mais honesto possivel</h3>
+                <h3>Seja o mais honesto possível</h3>
                 <hr>
             </div>
-            <input type="text" name="nomecli" id="nomecli" placeholder="Nome" value="">
-            <input type="email" name="emailcli" id="emailcli" placeholder="E-mail" value="">
-            <input type="text">
+
+            <div class="container-inputs">
+                <div class="subject-area">
+                    <span class="title-box">Assunto</span>
+                    <input type="text" name="subject" id="subject" placeholder="Assunto" value="">
+                </div>
+
+                <div class="opinion-area pad-area">
+                    <span class="title-box">Opinião</span>
+                    <textarea name="opinion" placeholder="Escreva aqui a sua opinião" id="opinion" rows="5"></textarea>
+                </div>
+
+                <div class="name-area pad-area">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6">
+                            <span class="title-box">Primeiro Nome</span>
+                            <input type="text" name="nomeclip" id="nomeclip" placeholder="Nome" value="">
+                        </div>
+                        <div class="col-sm-6 col-xs-6">
+                            <span class="title-box">Apelido</span>
+                            <input type="text" name="nomeclis" id="nomeclis" placeholder="Apelido" value="">  
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="email-area pad-area">
+                    <span class="title-box">E-mail</span>
+                    <input type="email" name="emailcli" id="emailcli" placeholder="exemplo@mail.pt" value="">
+                </div> 
+
+                <div class="submit-area">
+                    <input type="submit" class="but-sub" value="Submeter">
+                </div>
+            </div>
+
         </form>
     </div>
 
