@@ -48,4 +48,17 @@ form h3{
 }
 .but-sub{
     padding:8px 30px ;
+    color: white;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.but-sub:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+}
+form input{
+    border-radius: none;
 }
