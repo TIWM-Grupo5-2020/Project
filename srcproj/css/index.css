@@ -1,1 +1,16 @@
 /* Container */
+.bannercontainer{
+    padding-top: 99px;
+}
+.bannercontainer, .bannercontainer img{
+    width: 100%;
+}
+.wrapper1 .row{
+    text-align: left;
+}
+.list-gender{
+    list-style: none;
+}
+.container{
+    padding-top: 0 ;
+}
