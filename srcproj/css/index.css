@@ -14,3 +14,19 @@
 .container{
     padding-top: 0 ;
 }
+.wrapper1 .row{
+    text-align: center;
+}
+.list-gender{
+    padding: 0;
+}
+.li-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.regular-li a{
+    color: black;
+}
+.regular-li:hover{
+    
+}
