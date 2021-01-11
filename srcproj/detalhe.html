@@ -15,7 +15,7 @@
     <!-- define language characters -->
     <meta charset="UTF-8">
 </head>
-<body>
+<body onload="ready()">
     <header id="header">
         <div class="upper">
             <div class="left-header">
@@ -39,7 +39,15 @@
         </div>
     </header>
 
-    <div class="container">
+    <div id="container" class="container">
+        <div class="card">
+            <img id="image" src="" style="width:100%">
+            <h3 id="name"></h3>
+            <p id="price" class="price"></p>
+            <p id="size"></p>
+            <p id="sexo"></p>
+            <p><button>Add to Cart</button></p>
+          </div>
         
     </div>
 
@@ -92,4 +100,16 @@
     <!-- detalhe.js -->
     <script src="js/detalhe.js"></script>
 </body>
+<script>
+    function ready() {
+        
+        var v1 =parent.document.URL.substring(parent.document.URL.indexOf('?')+1, parent.document.URL.length);
+        if(isNaN(v1))
+        {
+            window.location.href="/Project-master/srcproj/listagem.html";
+            
+        }
+        loadData(v1);
+      }
+</script>
 </html>

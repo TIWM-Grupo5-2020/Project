@@ -1,1 +1,27 @@
 /* Container */
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    height: 75px;
+    align-content: center;
+  }
+  .column2 {
+    float: left;
+    width: 85%;
+    height: 75px;
+    padding: 5px;
+    align-content: center;
+  }
+  .container{
+    padding-top: 5px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .imagem{
+      width: 50%;
+      height: 100%;
+      margin: auto;
+  }

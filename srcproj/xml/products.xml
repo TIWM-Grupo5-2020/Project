@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+
+<list xmlns="http://www.example.org/products" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.example.org/products products.xsd">
+
+    <product>
+        <code>01</code>
+        <name>Botas de Futebol Predator Mutator 20+</name>
+        <tamanho>35-45</tamanho>
+        <price>200.00</price>
+        <sexo>Ambos</sexo>
+        <categoria>Futebol</categoria>
+        <image>../srcproj/img/products/01.png</image>
+    </product>
+
+    <product>
+        <code>02</code>
+        <name>Botas de Futebol Predator Mutator 20.1</name>
+        <tamanho>35-47</tamanho>
+        <price>150.00</price>
+        <sexo>Ambos</sexo>
+        <categoria>Futebol</categoria>
+        <image>../srcproj/img/products/02.png</image>
+    </product>
+
+    <product>
+        <code>03</code>
+        <name>Luvas Pro Junior Predator 20</name>
+        <tamanho>4-12</tamanho>
+        <price>50.00</price>
+        <sexo>Ambos</sexo>
+        <categoria>Futebol</categoria>
+        <image>../srcproj/img/products/03.png</image>
+    </product>
+
+    <product>
+        <code>04</code>
+        <name>Fato de Banho Speedo Boomstar Splice</name>
+        <tamanho>40-44</tamanho>
+        <price>45.00</price>
+        <sexo>Mulher</sexo>
+        <categoria>Natação</categoria>
+        <image>../srcproj/img/products/04.png</image>
+    </product>
+
+    <product>
+        <code>05</code>
+        <name>Fato de Banho de Competição Arena PWRSKIN ST 2.0</name>
+        <tamanho>28-38</tamanho>
+        <price>116.45</price>
+        <sexo>Mulher</sexo>
+        <categoria>Natação</categoria>
+        <image>../srcproj/img/products/05.png</image>
+    </product>
+    
+    <product>
+        <code>06</code>
+        <name>Óculos de Natação 900 Suecos Preto / Amarelo Lentes Claras NABAIJI</name>
+        <tamanho></tamanho>
+        <price>6</price>
+        <sexo>Ambos</sexo>
+        <categoria>Natação</categoria>
+        <image>../srcproj/img/products/06.png</image>
+    </product>
+    
+    <product>
+        <code>07</code>
+        <name>Calções Nike Dri-FIT DNA</name>
+        <tamanho></tamanho>
+        <price>31.50</price>
+        <sexo>Homem</sexo>
+        <categoria>Basquetebol</categoria>
+        <image>../srcproj/img/products/07.png</image>
+    </product>
+    
+    <product>
+        <code>08</code>
+        <name>Sapatilhas Nike Jordan React Elevation</name>
+        <tamanho>40-48</tamanho>
+        <price>83.93</price>
+        <sexo>Homem</sexo>
+        <categoria>Basquetebol</categoria>
+        <image>../srcproj/img/products/08.png</image>
+    </product>
+
+    <product>
+        <code>09</code>
+        <name>Fitas de Suspensão Softee</name>
+        <tamanho></tamanho>
+        <price>87.80</price>
+        <sexo>Ambos</sexo>
+        <categoria>Bodybuilding</categoria>
+        <image>../srcproj/img/products/09.png</image>
+    </product>
+
+
+
+
+</list>

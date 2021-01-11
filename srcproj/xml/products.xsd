@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.example.org/products"
+ xmlns="http://www.example.org/products"
+ elementFormDefault="qualified">
+
+ <xs:simpleType name="Sexo">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Mulher" />
+      <xs:enumeration value="Homem" />
+      <xs:enumeration value="Ambos" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="Categorias">
+  <xs:restriction base="xs:string">
+      <xs:enumeration value="Futebol" />
+      <xs:enumeration value="Basquetebol" />
+      <xs:enumeration value="Bodybuilding" />
+      <xs:enumeration value="Natação" />
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:element name="list">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="product" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:byte" name="code"/>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:string" name="tamanho" minOccurs="0"/>
+            <xs:element type="xs:float" name="price"/>
+            <xs:element type="Sexo" name="sexo"/>
+            <xs:element type="Categorias" name="categoria"/>
+            <xs:element type="xs:anyURI" name="image"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
