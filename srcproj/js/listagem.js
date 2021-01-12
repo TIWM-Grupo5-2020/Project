@@ -32,17 +32,18 @@ function showTheList(xml) {
     if(filtroSexo=='undefined' )
     {
         filtroSexo='Ambos,Mulher,Homem'; 
-        filtro1.innerHTML="Sexo: Ambos ";
+        filtro1.innerHTML="<span class='edit-bold'>Sexo:</span> Ambos ";
     }
    
     else
     {
         filtro1.innerHTML="Sexo: "+filtroSexo;
+        filtro1.className="fil1";
         filtroSexo+=",Ambos";
     }
     if(filtroSport=='undefined' )
     {
-        filtro2.innerHTML="Desportos: Todos";
+        filtro2.innerHTML="<span class='edit-bold'>Desportos:</span> Todos";
         filtroSport='Futebol,Bodybuilding,Natação,Basquetebol';
     }
     else
@@ -140,3 +141,17 @@ function filtroSport(p) {
     sessionStorage.setItem("filtroSport", filtroSport);
     window.location.href="../srcproj/listagem.html";
 }
+
+// $("#clickEvent").on("click",function(){
+//     var block = document.getElementById("c-filtros");
+//     var but = document.getElementById("clickEvent");
+
+//     if(block.className!="container-filtros blocked"){
+//        block.className="container-filtros blocked"
+//        but.style.display="none";
+//     }
+//     else{
+//         block.className="container-filtros unblocked"
+//     }
+
+// });

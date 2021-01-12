@@ -38,27 +38,25 @@
             </ul>
         </div>
     </header>
-    
+
     <div id="container" class="container clearfix">
-        <div class="container-filtros">
-            <span id="filtro1"></span><br><span id="filtro2"></span>
-            <button type="button" onclick="cleanFilters();" class="btn btn-link">Limpar Filtros</button>
+        <div class="mastercontainer-filros">
+            <div class="fil-tip">
+                <p id="filtro1"></p>
+                <p id="filtro2"></p>
+            </div>
+            <a class="filclick" id="clickEvent" onclick="cleanFilters();">Limpar Filtros</a>
         </div>
   
 
         <div id="notFound" class="row">
             <div class="col-md-12">
                 <div class="error-template">
-                    <h1>
-                        Oops!</h1>
-                    <h2>
-                        404 Not Found</h2>
-                    <div class="error-details">
-                        Sorry, an error has occured, Requested page not found!
-                    </div>
+                    <h1>Oops!</h1>
+                    <h2>Lamentamos informar mas os produtos que procura não estão disponiveis</h2>
                     <div class="error-actions">
-                        <a href="http://www.jquery2dotnet.com" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
-                            Take Me Home </a><a href="http://www.jquery2dotnet.com" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                        <a onclick="cleanFilters();" class="btn btn-primary btn-lg">
+                        <span class="glyphicon glyphicon-home"></span> Retornar</a>
                     </div>
                 </div>
             </div>
