@@ -33,3 +33,22 @@
   .prod-container{
     padding: 5px;
   }
+ 
+.filter-g-item:hover
+{
+    cursor: pointer;
+}
+
+.left-header{
+    cursor: pointer;
+}
+.sub-items{
+    cursor: pointer;
+}
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
+
+#notFound{
+  display: none;
+}

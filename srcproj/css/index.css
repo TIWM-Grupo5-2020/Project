@@ -78,3 +78,15 @@
     font-size: 20px;
     padding-top: 30px;
 }
+
+.filter-g-item:hover
+{
+    cursor: pointer;
+}
+
+.left-header{
+    cursor: pointer;
+}
+.sub-items{
+    cursor: pointer;
+}

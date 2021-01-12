@@ -19,28 +19,51 @@
     <header id="header">
         <div class="upper">
             <div class="left-header">
-                <img src="img/h-logo.png" alt="MegaSport">
+                <img src="img/h-logo.png" onclick="clean(); return false;" alt="MegaSport">
             </div>
             <div class="right-header">
                 <ul class="filter-gender">
-                    <li class="filter-g-item"><a class="main-h" href="#">Homem</a></li>
-                    <li class="filter-g-item"><a class="main-h" href="#">Mulher</a></li>
+                    <li class="filter-g-item"><a class="main-h" onclick="filtroSexo('Homem'); return false;">Homem</a></li>
+                    <li class="filter-g-item"><a class="main-h" onclick="filtroSexo('Mulher'); return false;">Mulher</a></li>
                 </ul>
             </div>
         </div>
         
         <div class="submenus">
             <ul class="ul-sub">
-                <li class="sub-items"><a class="a-col" href="">Futebol</a></li>
-                <li class="sub-items"><a class="a-col" href="">Natação</a></li>
-                <li class="sub-items"><a class="a-col" href="">Bodybuilding</a> </li>
-                <li class="sub-items"><a class="a-col" href="">Basketball</a></li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Futebol'); return false;">Futebol</a></li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Natação'); return false;">Natação</a></li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Bodybuilding'); return false;">Bodybuilding</a> </li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Basquetebol'); return false;">Basketball</a></li>
             </ul>
         </div>
     </header>
-
+    
     <div id="container" class="container clearfix">
+        <div class="container-filtros">
+            <span id="filtro1"></span><br><span id="filtro2"></span>
+            <button type="button" onclick="cleanFilters();" class="btn btn-link">Limpar Filtros</button>
+        </div>
+  
 
+        <div id="notFound" class="row">
+            <div class="col-md-12">
+                <div class="error-template">
+                    <h1>
+                        Oops!</h1>
+                    <h2>
+                        404 Not Found</h2>
+                    <div class="error-details">
+                        Sorry, an error has occured, Requested page not found!
+                    </div>
+                    <div class="error-actions">
+                        <a href="http://www.jquery2dotnet.com" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+                            Take Me Home </a><a href="http://www.jquery2dotnet.com" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-envelope"></span> Contact Support </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </div>
 
     <footer>
