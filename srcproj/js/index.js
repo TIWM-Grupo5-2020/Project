@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 function filtroSexo(p) {
     //alert(p);
     var filtroSexo = p;
@@ -18,7 +19,9 @@ function filtroSport(p) {
     sessionStorage.setItem("filtroSport", filtroSport);
     window.location.href="../srcproj/listagem.html";
 }
-$("fut").on("click",function(){
-    var fut= $(document).getElementByClass
-    
+    $(document)
+    $("fut").on("click",function(){
+        
+    });
 });
+
