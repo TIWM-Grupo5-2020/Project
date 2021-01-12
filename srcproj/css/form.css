@@ -62,3 +62,17 @@ form h3{
 form input{
     border-radius: none;
 }
+.filter-g-item:hover
+{
+    cursor: pointer;
+}
+
+.left-header{
+    cursor: pointer;
+}
+.sub-items{
+    cursor: pointer;
+}
+.regular-li{
+    cursor: pointer;
+}

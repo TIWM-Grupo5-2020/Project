@@ -29,7 +29,7 @@
           <xs:sequence>
             <xs:element type="xs:byte" name="code"/>
             <xs:element type="xs:string" name="name"/>
-            <xs:element type="xs:string" name="tamanho" minOccurs="0"/>
+            <xs:element type="xs:string" name="tamanho"/>
             <xs:element type="xs:float" name="price"/>
             <xs:element type="Sexo" name="sexo"/>
             <xs:element type="Categorias" name="categoria"/>

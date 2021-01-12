@@ -29,7 +29,7 @@ function showTheList(xml) {
     var filtro2=document.getElementById('filtro2');
     
 
-    if(filtroSexo=='undefined' )
+    if(filtroSexo=='undefined' || filtroSexo=='null')
     {
         filtroSexo='Ambos,Mulher,Homem'; 
         filtro1.innerHTML="<span class='edit-bold'>Sexo:</span> Ambos ";
@@ -41,7 +41,7 @@ function showTheList(xml) {
         filtro1.className="fil1";
         filtroSexo+=",Ambos";
     }
-    if(filtroSport=='undefined' )
+    if(filtroSport=='undefined' || filtroSport=='null')
     {
         filtro2.innerHTML="<span class='edit-bold'>Desportos:</span> Todos";
         filtroSport='Futebol,Bodybuilding,Natação,Basquetebol';
