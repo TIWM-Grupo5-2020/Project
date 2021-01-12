@@ -1,3 +1,4 @@
+
 function loadData() {
     var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 
@@ -98,7 +99,7 @@ function showTheList(xml) {
                 
             }
          
-    
+            
             //sessionStorage.setItem("filtroSport", undefined);
             //sessionStorage.setItem("filtrosexo", undefined);
 
@@ -111,6 +112,7 @@ function showTheList(xml) {
     else{
         esse.style.display="none";
     }
+
 };
 function ready() {
     loadData();
@@ -121,6 +123,7 @@ function filtroSexo(p) {
     sessionStorage.setItem("filtrosexo", undefined);
     sessionStorage.setItem("filtrosexo", filtroSexo);
     window.location.href="../srcproj/listagem.html";
+
 }
 function clean(){
     window.location.href="../srcproj/";

@@ -1,4 +1,3 @@
-$( document ).ready(function() {
 function filtroSexo(p) {
     //alert(p);
     var filtroSexo = p;
@@ -19,9 +18,11 @@ function filtroSport(p) {
     sessionStorage.setItem("filtroSport", filtroSport);
     window.location.href="../srcproj/listagem.html";
 }
-    $(document)
-    $("fut").on("click",function(){
-        
-    });
-});
+function triggerMan(p){ 
+    sessionStorage.setItem("filtrosexo", "Homem");
+    sessionStorage.setItem("filtroSport", p);
+    window.location.href="../srcproj/listagem.html";
+    
+}
+
 
