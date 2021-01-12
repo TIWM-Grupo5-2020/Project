@@ -29,7 +29,7 @@ function showTheList(xml) {
         var code=Book_List[i].getElementsByTagName("code")[0].childNodes[0].nodeValue;
         var anchor=document.createElement('a');
         anchor.className="anchor";
-        anchor.href="/Project/srcproj/detalhe.html?"+code;
+        anchor.href="../srcproj/detalhe.html?"+code;
         
         divColSm.appendChild(anchor);
         

@@ -47,7 +47,7 @@ function showTheList(xml,p) {
     }
     if(found==false)
     {
-        window.location.href="/Project/srcproj/listagem.html";
+        window.location.href="../srcproj/listagem.html";
     }
 };
     function ready() {
@@ -55,7 +55,7 @@ function showTheList(xml,p) {
         var v1 =parent.document.URL.substring(parent.document.URL.indexOf('?')+1, parent.document.URL.length);
         if(isNaN(v1))
         {
-            window.location.href="/Project/srcproj/listagem.html";
+            window.location.href="../srcproj/listagem.html";
         }
         loadData(v1);
         

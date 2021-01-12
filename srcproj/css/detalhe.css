@@ -3,7 +3,8 @@
   vertical-align: top;
 }
 .card{
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .img-holder img{
   max-width: 200px;
@@ -18,8 +19,9 @@
   font-size: 30px;
   padding-bottom: 10px;
 }
-#price{
+#price,#size,#sexo{
   padding-top: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
+
