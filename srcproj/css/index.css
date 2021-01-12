@@ -66,6 +66,7 @@
 }
 .sep h2{
     color: white;
+    text-align: center;
 }
 .title{
     background-color: black;
@@ -73,11 +74,7 @@
     margin-right: -100%;
 }
 
-.title h2{
-    color: white;
-    text-align: center;
-}
-
 .AboutUs{
     font-size: 20px;
+    padding-top: 30px;
 }

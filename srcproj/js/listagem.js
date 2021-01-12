@@ -59,3 +59,6 @@ function showTheList(xml) {
         divDesc.appendChild(redirect);
     }
 };
+function ready() {
+    loadData();
+}
