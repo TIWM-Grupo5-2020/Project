@@ -24,5 +24,10 @@ function triggerMan(p){
     window.location.href="../srcproj/listagem.html";
     
 }
-
+function triggerWoman(p){ 
+    sessionStorage.setItem("filtrosexo", "Mulher");
+    sessionStorage.setItem("filtroSport", p);
+    window.location.href="../srcproj/listagem.html";
+    
+}
 
