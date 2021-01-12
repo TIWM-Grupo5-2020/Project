@@ -67,3 +67,17 @@
 .sep h2{
     color: white;
 }
+.title{
+    background-color: black;
+    margin-left: -100%;
+    margin-right: -100%;
+}
+
+.title h2{
+    color: white;
+    text-align: center;
+}
+
+.AboutUs{
+    font-size: 20px;
+}
