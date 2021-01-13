@@ -13,7 +13,7 @@
         <!-- index css stylesheet -->
         <link rel="stylesheet" href="css/index.css">
         <!-- define language characters -->
-        <meta charset="UTF8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta charset="UTF8" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     </head>
     <body>
         <header id="header">
@@ -63,19 +63,24 @@
                     <div class="col-sm-6">
                         <ul class="list-gender"> 
                             <li class="li-title">Homem</li>
-                            <li class="regular-li" id="futbol"><a onclick="triggerMan('Futebol'); return false;">Futebol</a></li>
-                            <li class="regular-li"><a onclick="triggerMan('Natação'); return false;">Natação</a></li>
-                            <li class="regular-li"><a onclick="triggerMan('Bodybuilding'); return false;">Bodybuilding</a></li>
-                            <li class="regular-li"><a onclick="triggerMan('Basquetebol'); return false;">Basketball</a></li>
+                            <ul class="sub-list" >
+                                <li class="regular-li" id="futbol"><a onclick="triggerMan('Futebol'); return false;">Futebol</a></li>
+                                <li class="regular-li"><a onclick="triggerMan('Natação'); return false;">Natação</a></li>
+                                <li class="regular-li"><a onclick="triggerMan('Bodybuilding'); return false;">Bodybuilding</a></li>
+                                <li class="regular-li"><a onclick="triggerMan('Basquetebol'); return false;">Basketball</a></li>
+                            </ul>
+                            
                         </ul>
                     </div>
                     <div class="col-sm-6">
                         <ul class="list-gender">
                             <li class="li-title">Mulher</li>
-                            <li class="regular-li"><a onclick="triggerWoman('Futebol'); return false;">Futebol</a></li>
-                            <li class="regular-li"><a onclick="triggerWoman('Natação'); return false;">Natação</a></li>
-                            <li class="regular-li"><a onclick="triggerWoman('Bodybuilding'); return false;">Bodybuilding</a></li>
-                            <li class="regular-li"><a onclick="triggerWoman('Basquetebol'); return false;">Basketball</a></li>
+                            <ul class="sub-list" >
+                                <li class="regular-li"><a onclick="triggerWoman('Futebol'); return false;">Futebol</a></li>
+                                <li class="regular-li"><a onclick="triggerWoman('Natação'); return false;">Natação</a></li>
+                                <li class="regular-li"><a onclick="triggerWoman('Bodybuilding'); return false;">Bodybuilding</a></li>
+                                <li class="regular-li"><a onclick="triggerWoman('Basquetebol'); return false;">Basketball</a></li>
+                            </ul>
                         </ul>
                     </div>
                 </div>

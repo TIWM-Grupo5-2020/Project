@@ -27,6 +27,10 @@
     color: #1c1c1c;
     font-size: 50px;
 }
+.sub-list{
+    list-style: none;
+    margin-left: -30px;
+}
 .regular-li a{
     color: black;
     font-size: 20px;  
