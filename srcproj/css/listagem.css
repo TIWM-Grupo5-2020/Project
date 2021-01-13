@@ -117,5 +117,20 @@
   font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
-  
+  .fil-tip,.filclick{
+    float: none;
+  }
+  .fil-tip{
+    margin-bottom: 5px;
+  }
+  .mastercontainer-filros{
+    margin-top: 0;
+  }
+  .edit-col{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .descprod{
+    text-align: center;
+  }
 }
