@@ -133,4 +133,7 @@
   .descprod{
     text-align: center;
   }
+  .img-wrapper img{
+    margin: auto;
+  }
 }
