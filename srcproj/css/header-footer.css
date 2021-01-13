@@ -2,6 +2,8 @@
 body{
     width: 100%;
     margin: 0;
+    background-color: white;
+    background: url("../img/bkg.jpg")no-repeat fixed;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: Arial, Helvetica, sans-serif;
@@ -186,10 +188,31 @@ footer{
 .but-holder{
     padding: 30px 0 30px 0;
 }
-/* ------ */
-
-/* Container */
-
-/* --------- */
+@media only screen and (max-width: 768px) {
+    .left-header{
+        display: none;
+    }
+    .upper{
+        text-align: center;
+    }
+    .right-header{
+        margin: 0;
+    }
+    .right-header ul{
+        padding-left: 0;
+    }
+    .filter-g-item{
+        line-height: 40px;
+    }
+    .ul-sub li{
+        padding: 10px 5px 10px 5px;
+    }
+    .pad{
+        margin-top: 20px;
+    }
+    .lista-footer.none{
+        display: none;
+    }
+}
 
 

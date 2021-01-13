@@ -94,3 +94,18 @@
 .regular-li{
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .bannercontainer{
+        padding-top: 82px!important;
+    }
+    .sep{
+        margin: 0 -15px 0 -15px !important;
+    }
+    .AboutUs p{
+        font-size: 15px;
+    }
+    .waper-horario table{
+        font-size: 14px!important;
+    }
+
+}
