@@ -41,14 +41,17 @@ function showTheList(xml) {
         filtro1.className="fil1";
         filtroSexo+=",Ambos";
     }
-    if(filtroSport=='undefined' || filtroSport=='null')
+    
+    if(filtroSport=='undefined' || filtroSport=='null' || filtroSport==null )
     {
+        
         filtro2.innerHTML="<span class='edit-bold'>Desportos:</span> Todos";
         filtroSport='Futebol,Bodybuilding,Natação,Basquetebol';
     }
     else
-    filtro2.innerHTML="Desportos: "+filtroSport;
-
+    {
+        filtro2.innerHTML="Desportos: "+filtroSport;
+    }
     var contador=0;
     for (var i = 0; i < Book_List.length; i++) {
 
