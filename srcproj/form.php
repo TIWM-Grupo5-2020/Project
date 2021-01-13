@@ -18,7 +18,7 @@
         $pdf = new FPDF(); 
         $pdf->AddPage();
 
-        $pdf->Image('img/h-logo.png',0,0,30,20,'PNG');
+        $pdf->Image('img/h-logo.png',0,0,30,17,'PNG');
 
         $width_cell=array(60,30,40,60);
         $pdf->SetFillColor(193,229,252); // Background color of header 
@@ -50,6 +50,7 @@
         $hora=date("h-i-sa");
     
         $assunto=$assunto.$dia.$hora;
+        $pdf->Output();
         $pdf->Output("Opinioes/".$assunto.".pdf",'F');
 
 
