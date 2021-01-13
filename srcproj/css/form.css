@@ -60,7 +60,7 @@ form h3{
     outline: none;
 }
 form input{
-    border-radius: none;
+    border-radius: 0;
 }
 .filter-g-item:hover
 {
