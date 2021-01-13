@@ -11,9 +11,12 @@ Este Projeto tem como objetivo desenvolver um conjunto de páginas estáticas ou
 * **O conteúdo todo relacionado com o projeto** pode ser encontrado no [Project](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
   * Os ficheiros de **JavaScript** poderão ser encontrados no repositório [js](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/js).
   * Os ficheiros de **HTML** poderão ser encontrados na raiz do projeto [srcproj](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
+  * Os ficheiros de **PHP** poderão ser encontrados na raiz do projeto [srcproj](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj).
+  * Os ficheiros **XML e XSD** poderão ser encontrados no repositório [xml](https://github.com/TIWM-Grupo5-2020/Project/tree/master/srcproj/xml).
   * Os ficheiros de **CSS** poderão ser encontrados no repositório [css](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/css).
   * As **imagens** poderão ser encontradas no repositório [img](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/srcproj/img).
   * As **fonts da libery** poderão ser encontradas no repositório [font](https://github.com/TIWM-Grupo5-2020/Project/tree/master/srcproj/font).
+  * As **opiniões** geradas pelos clientes poderão ser encontradas no repositório [Opinioes](https://github.com/TIWM-Grupo5-2020/Project/tree/master/srcproj/Opinioes).
 * Os ficheiros de **Documentação** poderão ser encontrados no repositório [doc](https://github.com/Joel-Diogo-Marco-TI/Project/tree/master/doc).
 
 ## Galeria
