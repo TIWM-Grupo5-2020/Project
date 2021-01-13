@@ -37,7 +37,6 @@ Este Projeto tem como objetivo desenvolver um conjunto de páginas estáticas ou
 
 * Bootsrap
 * JQuery
-* slick.js
 * FPDF
 
 ## Relatório de Capítulos
