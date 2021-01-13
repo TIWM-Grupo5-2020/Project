@@ -1,58 +1,125 @@
-.text-holder,.img-holder{
-  display: inline-block;
-  vertical-align: top;
-}
-.card{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.img-holder img{
-  max-width: 200px;
-  max-height: 300px;
-  width: 100%;
-}
-.text-holder{
-  margin: -8px 0 0 15px;
-  max-width: 800px;
-}
-#name{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  padding-bottom: 10px;
-}
-#price,#size,#sexo{
-  padding-top: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-.filter-g-item:hover
-{
-    cursor: pointer;
-}
+/* Container */
+.container{
+    padding-top: 5px;
+    display: table;
+    clear: both;
+  }
+  .col-sm-3:nth-child(4n+1){
+    clear: left;
+  }
+  .img-wrapper img{
+    width: 100%;
+    max-width: 300px;
+    display: block;
+  }
+  .edit-col{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .descprod{
+    text-align: left;
+  }
+  .anchor{
+    color:black;
+    text-decoration: none;
+    border: 3px solid transparent;
+    display: block;
+  }
+  .anchor:hover{
+    border-color: black;
+    color: black;
+    text-decoration: none;
+  }
+  .prod-container{
+    padding: 5px;
+  }
+.error-template {padding: 40px 15px;text-align: center;}
+.error-actions {margin-top:15px;margin-bottom:15px;}
+.error-actions .btn { margin-right:10px; }
 
-.left-header{
-    cursor: pointer;
+#notFound{
+  display: none;
 }
-.sub-items{
-    cursor: pointer;
+.btn-primary{
+  background-color: black;
+  border-radius: 20px;
+  outline: none;
 }
-.regular-li{
-    cursor: pointer;
+.btn-primary:hover{
+  color: black;
+  background-color: white;
+}
+.mastercontainer-filros{
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+.filclick{
+  color: black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 3px 35px 3px 15px ;
+  position: relative;
+}
+.filclick:hover{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.filclick::after{
+  content: '';
+  background: url(../img/filterico.png)no-repeat center;
+  background-size: 17px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: calc(50% + -8px);
+  right: 10px;
+}
+#filtro1{
+  margin-right: 10px;
+}
+#filtro1,#filtro2{
+  display: inline-block;
+}
+.filclick{
+  float: right;
+  position: relative;
+  vertical-align: middle;
+}
+.fil-tip{
+  float: left;
+  position: relative;
+  vertical-align: middle;
+}
+.fil-tip p{
+  margin: 0;
+  line-height: 31px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.edit-bold{
+  font-weight: 700;
 }
 @media only screen and (max-width: 768px) {
-  .card{
-    text-align: center;
-  }
-  .text-holder{
-    margin-left: 0;
-    margin-top: 10px;
-  }
-  #name{
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-  #price,#size,#sexo{
-    font-size: 15px;
-    padding-top: 0;
-  }
-}
+    .fil-tip,.filclick{
+      float: none;
+    }
+    .fil-tip{
+      margin-bottom: 5px;
+    }
+    .mastercontainer-filros{
+      margin-top: 0;
+    }
+      .edit-col{
+        margin-bottom: 10px;
+    }
+    .descprod{
+        text-align: center;
+    }
+    .img-wrapper img{
+      margin: auto;
+    }
