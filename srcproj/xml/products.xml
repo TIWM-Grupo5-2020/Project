@@ -57,7 +57,7 @@ xsi:schemaLocation="http://www.example.org/products products.xsd">
     <product>
         <code>06</code>
         <name>Óculos de Natação 900 Suecos Preto / Amarelo Lentes Claras NABAIJI</name>
-        <tamanho></tamanho>
+        <tamanho>Unico</tamanho>
         <price>6</price>
         <sexo>Ambos</sexo>
         <categoria>Natação</categoria>
@@ -67,7 +67,7 @@ xsi:schemaLocation="http://www.example.org/products products.xsd">
     <product>
         <code>07</code>
         <name>Calções Nike Dri-FIT DNA</name>
-        <tamanho></tamanho>
+        <tamanho>40-45</tamanho>
         <price>31.50</price>
         <sexo>Homem</sexo>
         <categoria>Basquetebol</categoria>
@@ -87,7 +87,7 @@ xsi:schemaLocation="http://www.example.org/products products.xsd">
     <product>
         <code>09</code>
         <name>Fitas de Suspensão Softee</name>
-        <tamanho></tamanho>
+        <tamanho>Adulto</tamanho>
         <price>87.80</price>
         <sexo>Ambos</sexo>
         <categoria>Bodybuilding</categoria>

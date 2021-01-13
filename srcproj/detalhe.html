@@ -13,28 +13,28 @@
     <!-- footer and header css -->
     <link rel="stylesheet" href="css/header-footer.css">
     <!-- define language characters -->
-    <meta charset="UTF-8">
+    <meta charset="UTF8" name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body onload="ready()">
     <header id="header">
         <div class="upper">
             <div class="left-header">
-                <img src="img/h-logo.png" alt="MegaSport">
+                <img src="img/h-logo.png" onclick="clean(); return false;" alt="MegaSport">
             </div>
             <div class="right-header">
                 <ul class="filter-gender">
-                    <li class="filter-g-item"><a class="main-h" href="#">Homem</a></li>
-                    <li class="filter-g-item"><a class="main-h" href="#">Mulher</a></li>
+                    <li class="filter-g-item hHomem"><a class="main-h" onclick="filtroSexo('Homem'); return false;">Homem</a></li>
+                    <li class="filter-g-item hMulher"><a class="main-h" onclick="filtroSexo('Mulher'); return false;">Mulher</a></li>
                 </ul>
             </div>
         </div>
         
         <div class="submenus">
             <ul class="ul-sub">
-                <li class="sub-items"><a class="a-col" href="">Futebol</a></li>
-                <li class="sub-items"><a class="a-col" href="">Natação</a></li>
-                <li class="sub-items"><a class="a-col" href="">Bodybuilding</a> </li>
-                <li class="sub-items"><a class="a-col" href="">Basketball</a></li>
+                <li class="sub-items"><a class="a-col fut-click" onclick="filtroSport('Futebol'); return false;">Futebol</a></li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Natação'); return false;">Natação</a></li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Bodybuilding'); return false;">Bodybuilding</a> </li>
+                <li class="sub-items"><a class="a-col" onclick="filtroSport('Basquetebol'); return false;">Basketball</a></li>
             </ul>
         </div>
     </header>
@@ -58,7 +58,9 @@
         <div class="ava">
             <div class="ava-content">
                 <h2>Estamos Dispostos a Ouvi-lo</h2>
-                <button class="but form-redir">Dar Opinião</button>   
+                <div class="but-holder">
+                    <a class="but form-redir" href="form.html">Dar Opinião</a>
+                </div> 
             </div>
         </div>
         <div class="footer-bottom">
