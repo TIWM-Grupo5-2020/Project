@@ -213,6 +213,9 @@ footer{
     .lista-footer.none{
         display: none;
     }
+    .ava .ava-content h2{
+        font-size: 25px;
+    }
 }
 
 
