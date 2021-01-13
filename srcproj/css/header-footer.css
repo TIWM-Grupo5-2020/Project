@@ -207,6 +207,13 @@ footer{
     text-decoration: none;
     cursor:default;
 }
+.figcap{
+    text-align: center;
+    color: #fb4e0c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: capitalize;
+}
 @media only screen and (max-width: 768px) {
     .left-header{
         display: none;
