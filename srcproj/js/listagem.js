@@ -63,7 +63,7 @@ function showTheList(xml) {
                     // console.log(sexo+" "+sport);
                     contador++;
                     var divColSm=document.createElement("div");
-                    divColSm.className="col-sm-3 edit-col";
+                    divColSm.className="col-sm-3 col-xs-12 edit-col";
                     row.appendChild(divColSm);
                     
                     var code=Book_List[i].getElementsByTagName("code")[0].childNodes[0].nodeValue;
