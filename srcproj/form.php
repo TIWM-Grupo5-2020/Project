@@ -45,7 +45,12 @@
         $pdf->Cell(10,10,'',0,0,'C',false); // Third column of row 1 
         $pdf->Cell(10,10,'',0,1,'R',false); // Fourth column of row 1 
         
-        $pdf->Output();
+        //$pdf->Output();
+        $dia=date("Y-m-d");
+        $hora=date("h-i-sa");
+    
+        $assunto=$assunto.$dia.$hora;
+        $pdf->Output("Opinioes/".$assunto.".pdf",'F');
 
 
 
