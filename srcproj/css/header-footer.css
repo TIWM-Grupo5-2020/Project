@@ -158,7 +158,16 @@ footer{
 .lista-footer li {
     margin-bottom: 10px;
 }
-.lista-footer li a{
+.lista-footer li {
+    color: white;
+    border-bottom: 1px solid transparent;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+.lista-footer li a {
     color: white;
     border-bottom: 1px solid transparent;
     list-style: none;
@@ -187,6 +196,10 @@ footer{
 }
 .but-holder{
     padding: 30px 0 30px 0;
+}
+.lista-footer li:hover a{
+    text-decoration: none;
+    cursor:default;
 }
 @media only screen and (max-width: 768px) {
     .left-header{

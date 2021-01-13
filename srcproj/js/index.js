@@ -30,4 +30,10 @@ function triggerWoman(p){
     window.location.href="../srcproj/listagem.html";
     
 }
+function goTop(){
+    var elmnt = document.getElementById("aboutUs");
+    elmnt.scrollIntoView(true);
+    window.scrollBy(0, -87);
+}
+
 
