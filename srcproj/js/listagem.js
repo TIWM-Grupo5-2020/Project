@@ -37,7 +37,7 @@ function showTheList(xml) {
    
     else
     {
-        filtro1.innerHTML="Sexo: "+filtroSexo;
+        filtro1.innerHTML="<span class='edit-bold'>Sexo:</span> "+filtroSexo;
         filtro1.className="fil1";
         filtroSexo+=",Ambos";
     }
@@ -50,7 +50,7 @@ function showTheList(xml) {
     }
     else
     {
-        filtro2.innerHTML="Desportos: "+filtroSport;
+        filtro2.innerHTML="<span class='edit-bold'>Desportos:</span> "+filtroSport;
     }
     var contador=0;
     for (var i = 0; i < Book_List.length; i++) {
