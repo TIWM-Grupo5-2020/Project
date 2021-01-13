@@ -39,3 +39,19 @@
 .regular-li{
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .card{
+    text-align: center;
+  }
+  .text-holder{
+    margin-left: 0;
+  }
+  #name{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  #price,#size,#sexo{
+    font-size: 15px;
+    padding-top: 0;
+  }
+}
