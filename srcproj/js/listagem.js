@@ -29,7 +29,7 @@ function showTheList(xml) {
     var filtro2=document.getElementById('filtro2');
     
 
-    if(filtroSexo=='undefined' || filtroSexo=='null')
+    if(filtroSexo=='undefined' || filtroSexo=='null' || filtroSexo==null)
     {
         filtroSexo='Ambos,Mulher,Homem'; 
         filtro1.innerHTML="<span class='edit-bold'>Sexo:</span> Ambos ";
